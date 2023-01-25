@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from discord import Permissions
 
-api_key = 'ODM1OTk5Mjk5Mjc4OTk1NDk2.Gb-V1F.A4Rcv4eiaZcqZ43lXZAqaYTYGQ3IIkuMaVQxs0'
+api_key = 'ODM1OTk5Mjk5Mjc4OTk1NDk2.Gu9w0u.ExzdXV5Wy6lLCy9MOKalbfOZt06D2WFRId0JzY'
 client = commands.Bot(command_prefix="+", intents=discord.Intents.all())
 
 
@@ -36,4 +36,4 @@ async def on_voice_state_update(member, before, after):
 
 
 client.run(
-    'ODM1OTk5Mjk5Mjc4OTk1NDk2.Gb-V1F.A4Rcv4eiaZcqZ43lXZAqaYTYGQ3IIkuMaVQxs0')
+    'ODM1OTk5Mjk5Mjc4OTk1NDk2.Gu9w0u.ExzdXV5Wy6lLCy9MOKalbfOZt06D2WFRId0JzY')
